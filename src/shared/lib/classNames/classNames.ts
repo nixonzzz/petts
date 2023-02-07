@@ -9,7 +9,5 @@ export function classNames(cls: string, mods: Mods, additional: string[]): strin
             .filter(([className, value]) => Boolean(value))
             .map(([className]) => className)
     ]
-        .join('')
+        .join(' ');
 }
-
-classNames('remove-btn', {hovered: false, selectable: true, red: true}, ['pdg'])
