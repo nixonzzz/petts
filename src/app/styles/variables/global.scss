@@ -1,5 +1,5 @@
 :root {
-  --font-family-main: Verdana, Sans-serif;
+  --font-family-main: "Ubuntu",system-ui,-apple-system,segoe ui,roboto,ubuntu,cantarell,noto sans,sans-serif,blinkmacsystemfont,"Segoe UI",helvetica,arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
   --font-size-m: 16px;
   --font-line-m: 24px;
@@ -8,4 +8,7 @@
   --font-size-l: 24px;
   --font-line-l: 32px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  // Размеры
+  --navbar-height: 50px;
 }
